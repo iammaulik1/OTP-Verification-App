@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "993810101739",
+    "project_id": "otpverification-4246d",
+    "storage_bucket": "otpverification-4246d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993810101739:android:f59ccb92f360701d1cd5ae",
+        "android_client_info": {
+          "package_name": "com.example.otpverficationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993810101739-bhtndud7q9ng4aettbhenkhab9rf3nhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZdS1wpXbIvdNTDGjIsFusxfLh4J0-l4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993810101739-bhtndud7q9ng4aettbhenkhab9rf3nhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993810101739:android:0a7c596173a252ec1cd5ae",
+        "android_client_info": {
+          "package_name": "com.example.otpverificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993810101739-be24l47a75pj4d4pjj5p664nih51akdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.otpverificationapp",
+            "certificate_hash": "1270065b13308b183be252594e32e41badc5654d"
+          }
+        },
+        {
+          "client_id": "993810101739-bhtndud7q9ng4aettbhenkhab9rf3nhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZdS1wpXbIvdNTDGjIsFusxfLh4J0-l4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993810101739-bhtndud7q9ng4aettbhenkhab9rf3nhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

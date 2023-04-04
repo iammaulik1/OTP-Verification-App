@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91-"
+            android:layout_marginStart="2dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/edtconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginStart="4dp"
+            android:hint="Enter Phone Number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F0F0F3"
+            android:hint="Enter otp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"/>
+
+
+
+</LinearLayout>
